@@ -1,0 +1,5 @@
+FROM ubuntu
+RUN echo "hi gopi" > /tmp/gopifile
+ENV myname gopi
+COPY linuxfile /etc
+Add devops.tar.gz /home
